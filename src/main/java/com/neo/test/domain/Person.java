@@ -8,7 +8,8 @@ import java.io.Serializable;
 
 @NodeEntity(label = "person")
 public class Person implements Serializable {
-    @Id @GeneratedValue
+    @Id
+    @GeneratedValue
     private Long Id;
     private String name;
     private String phone;
